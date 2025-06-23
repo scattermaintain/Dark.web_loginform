@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background-color:gray;
+  padding: 5vw;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 5vw;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button.create-account {
+  background-color: black;
+  margin-top: 10px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
